@@ -3,8 +3,22 @@
     background-color: #e3e3e3;
 }
  .panelname{
-    font-size: 16px;
+    font-size: 20px;
     color: #5555fd;
-    padding-left: 35%;
+    padding-left: 28%;
     padding-top: 5%;
+    font-weight: bold;
+}
+.norow{
+    margin: 120px 50px 50px 70px;
+}
+.logout{
+  cursor:pointer;
+  border-radius:20px;
+  color:#e3e3e3;
+  text-align:center;
+}
+.logout a{
+    font-weight: bold;
+    font-size:20px;
 }

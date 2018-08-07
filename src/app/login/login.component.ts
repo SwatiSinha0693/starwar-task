@@ -9,7 +9,8 @@ import 'rxjs/add/operator/map';
 import { ToastrService } from 'ngx-toastr';
 import { NgForm } from '@angular/forms';
 @Component({
-  templateUrl: 'login.component.html'
+  templateUrl: 'login.component.html',
+  styleUrls:['login.component.css']
 })
 
 export class LoginComponent implements OnInit {

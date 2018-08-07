@@ -11,7 +11,8 @@ const appRoutes: Routes = [
         pathMatch: 'prefix',
         redirectTo: 'login'
     },
-    { path: 'login', component: LoginComponent }
+    { path: 'login', component: LoginComponent },
+    { path: '**', redirectTo: 'login', pathMatch: 'full'}
 ];
 
 export const routing = RouterModule.forRoot(appRoutes);
